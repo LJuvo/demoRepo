@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  background: #eeeeee;
+  padding-bottom: 4rem;
+}
+body .poster {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transform-origin: 0 0;
+  transition: ease 0.5s;
+  background: url(../images/101.jpg) no-repeat center;
+  background-size: cover;
+}
+body .poster .posterTime {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  color: #f00;
+  background: #fff;
+  border-radius: 45px;
+  padding: 0.8rem 0.55rem;
+}
+body img {
+  width: 100%;
+  height: auto;
+}
+.Top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+}
+.main {
+  padding-top: 3.7rem;
+  padding-bottom: 0.78rem;
+}
+.main .mainTop {
+  background: #fff;
+}
+.main .mainMrain {
+  margin-bottom: 0.8rem;
+}
+.main .mainSwiper {
+  padding: 2rem 1rem;
+  background: #fff;
+}
+.main .mainSwiper .mainSwiperCanter {
+  margin-bottom: 1rem;
+}
+.main .mainSwiper .mainSwiperCanter .swiper-wrapper {
+  height: 8.5rem;
+}
+.main .mainSwiper a {
+  padding: 0.2rem 0.4rem;
+  border: 0.01rem solid #fff;
+  border-radius: 45px;
+  text-decoration: none;
+  color: #000;
+  transition: 1s ease inherit;
+}
+.main .mainZy {
+  background: #fff;
+}
+.main .mainZy .mainZyCenter {
+  padding: 0 1rem;
+}
+.main .mainZy .mainZyCenter .gallery-thumbs {
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+.main .mainZy .mainZyCenter .swiper-slide {
+  background: #f4f4f4;
+}
+.main .mainZy .mainZyCenter .swiper-slide-thumb-active {
+  background: url(../images/010.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 0.3rem;
+  color: #fff;
+}
+.main .mainZy .mainZyCenter .swiper-slide-thumb-active p {
+  font-weight: 700;
+}
+.main .student {
+  padding: 0 1rem;
+  background: #fff;
+}
+.main .student .studentCenter {
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.main .student .studentCenter .studentTop {
+  width: 24%;
+  background: #f4f4f4;
+  z-index: 99;
+  text-align: center;
+}
+.main .student .studentCenter .studentTop .studentBottom {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.main .student .studentCenter .studentTop .studentBottom .swiper-container {
+  height: 0;
+}
+.main .student .studentCenter .studentTop .studentBottomYes .swiper-container {
+  width: 100%;
+  height: auto;
+}
+.main .student .studentCenter .studentTopYes {
+  background: #ff5271;
+  color: #fff;
+}
+.main .student .studentTopOpacity {
+  opacity: 0;
+  margin: 0.5rem 0;
+}
+.Bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 998;
+}
